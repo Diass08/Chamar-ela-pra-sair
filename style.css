@@ -1,0 +1,132 @@
+*{ 
+    background-color: rgb(219, 54, 164);
+ }
+ #imagem{
+  margin-left:450px;
+ }
+ #pergunta{
+font-size: 50px;
+text-align: center;
+margin-left:350px;
+ }
+ #label{
+    color:aliceblue;
+    font-size:25px;
+    display:none;
+    text-align: center;
+ }
+ #ENVIAR{
+    display:none;
+    cursor:pointer;
+    padding: 15px 15px 15px 10px;
+ }
+ #formulario1{
+    display:none;
+    padding: 15px 15px 15px 10px;
+    background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border-color: 0px;
+ }
+ .botao{
+    margin: 20px 80px 0px 0px;
+    padding:10px 15px 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: aliceblue;
+ }
+ #NAO2{
+   display:none;
+   text-align:center;
+   margin:59px;
+ }
+ #NAO3{
+   display:none;
+   text-align: justify;
+   margin:90px;
+ }
+ #NAO4{
+   display:none;
+   margin:10px;
+ }
+ #NAO5{
+   display:none;
+   text-align: center;
+   margin:15px;
+ }
+ .botao:hover{
+   transform:translateY(-7px);
+   transition: 0.5s;
+   color:white;
+   background-color:rgb(255, 0, 170);
+   box-shadow: 0px 15px 20px #7e0336;
+ }
+ #ENVIAR:hover{
+  transform:translateY(-7px);
+  transition: 0.5s;
+  color:white;
+  background-color:rgb(255, 0, 170);
+  box-shadow: 0px 15px 20px #7e0336;
+ }
+ #NAO2:hover {
+  transform:translateY(-7px);
+  transition: 0.5s;
+  color:white;
+  background-color:rgb(255, 0, 170);
+  box-shadow: 0px 15px 20px #7e0336;
+ }
+ #NAO3:hover {
+  transform:translateY(-7px);
+  transition: 0.5s;
+  color:white;
+  background-color:rgb(255, 0, 170);
+  box-shadow: 0px 15px 20px #7e0336;
+ }
+ #NAO4:hover {
+  transform:translateY(-7px);
+  transition: 0.5s;
+  color:white;
+  background-color:rgb(255, 0, 170);
+  box-shadow: 0px 15px 20px #7e0336;
+ }
+ #NAO5:hover {
+  transform:translateY(-7px);
+  transition: 0.5s;
+  color:white;
+  background-color:rgb(255, 0, 170);
+  box-shadow: 0px 15px 20px #7e0336;
+ }
+ #NAO1:hover {
+  transform:translateY(-7px);
+  transition: 0.5s;
+  color:white;
+  background-color:rgb(255, 0, 170);
+  box-shadow: 0px 15px 20px #7e0336;
+ }
+ #titulo2{
+  display:none;
+  color:aliceblue;
+  font-size:30px;
+  text-align: center;
+  padding-left: 350px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  margin-left:200px;
+ }
+ #completo{
+  display: none;
+ }
+ #tente{
+  font-size:100px;
+  color:rgb(0, 221, 173);
+  text:bolder;
+  display:none;
+ }
+ #seunome{
+  padding:15px 10px 5px 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  border-color: 0px;
+  color: rgb(255, 0, 221);
+  display:none;
+ }
+ 

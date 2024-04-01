@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quer sair comigo?</title>
+</head>
+<body>
+    <div id="matematica">
+<h1>Quanto é a metade de 2+2?</h1>
+<ul>
+    <li><input onclick="Certa()" id="tres" value="SIM" NAME="resultadoDaConta"   type="radio">3</li>
+    <li><input onclick="errada2()" id="dois" value="SIM" NAME="resultadoDaConta"   type="radio">2</li>
+    <li><input onclick="errada2()" id="vinteDois" VALUE="SIM" NAME="resultadoDaConta"   type="radio">22</li>
+    <li><input onclick="errada2()" id="quatro" value="SIM" NAME="resultadoDaConta"   type="radio">4</li><br>
+    <p id="tente">!!!!!tente novamente!!!!!</p>
+</div>
+</ul><div id="completo">
+    <input type="hidden" name="dia-que-preencheu" value="x-sheetmonkey-current-date-time" />
+    <FORM action="https://api.sheetmonkey.io/form/geDhDxv82bgStNt5igc9Ym" method="POST">   
+    <div id="pergunta">
+    <H1 id="titulo1">Quer sair comigo?</H1>
+    <P>
+        <button name="SIM" onclick=" DizerSIM()" id="SIM" class="botao" type="button">SIM</button>
+        <button onmouseenter="DizerNAO1()" id="NAO1" class="botao" type="button">NAO</button></div>
+        <img width="450" id="imagem" src="/imagem/ilustracao-de-gato-fofo-dando-flores-em-fundo-rosa-ai_564714-2816.avif" alt="">
+        <button onmouseenter="DizerNAO2()" id="NAO2" class="botao" type="button">NAO</button>
+        <button onmouseenter="DizerNAO3()" id="NAO3" class="botao" type="button">NAO</button>
+        <button onmouseenter="DizerNAO4()" id="NAO4" class="botao" type="button">NAO</button>
+        <button onclick="MENSAGEM()" id="NAO5" class="botao" type="button">NAO</button>
+        <h1 id="titulo2">Aa que isso, aceita ai</h1>
+    </P>
+    <div id="form">
+        <P>
+            <h1 id="label"> Que dia esta disponivel?</h1><br><br>
+            <input id="seunome" placeholder="Seu nome" type="text" name="Name" required /></label><br><br>
+            <input required placeholder="a data" NAME="data-disponivel" id="formulario1" type="date"></input>
+            <br><button class="botao" id="ENVIAR" type="submit">Enviar</button>
+        </P>
+    </div>
+</div>
+    
+</FORM>
+<script src="index.js"></script>
+</body>
+</html>
